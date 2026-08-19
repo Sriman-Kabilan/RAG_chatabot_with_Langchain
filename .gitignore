@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables (API keys - NEVER commit these!)
+.env
+.env.local
+.env.*.local
+
+# Streamlit
+.streamlit/
+streamlit_app.log
+
+# Data / temporary uploads
+data/tmp/
+data/vector_stores/
+!data/vector_stores/README.md
+chroma_data/
+
+# Internal agent tooling
+.agents/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Notebooks (optional - uncomment if you do not want notebooks tracked)
+# *.ipynb
+
+# Scratch / temp files
+*.tmp
+import_check.txt
+smoke_test.*
