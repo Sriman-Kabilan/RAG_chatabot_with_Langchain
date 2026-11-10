@@ -1,6 +1,6 @@
 # RAG chatbot powered by 🔗 LangChain, OpenAI, Google Gemini & Hugging Face 🤗
 
-> **RAG chatbot powered by LangChain, OpenAI, Google Gemini & Hugging Face.** Upload PDF, TXT, CSV, or DOCX documents and chat with your data. Streamlit UI with history-aware retrieval, 3 retriever types (vectorstore, contextual compression, Cohere rerank), streaming answers, and multi-language support.
+> **RAG chatbot powered by LangChain, OpenAI, Google Gemini & Hugging Face.** Upload PDF, TXT, CSV, or DOCX documents and chat with your data. Streamlit UI with history-aware retrieval, 3 retriever types (vectorstore, contextual compression, Cohere rerank), streaming answers, multi-language support, and DeepEval evaluation.
 
 <div align="center">
   <img src="data/docs/RAG_architecture.png" alt="RAG architecture with Langchain components">
