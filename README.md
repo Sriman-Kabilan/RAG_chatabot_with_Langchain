@@ -1,4 +1,6 @@
-# RAG chatbot powered by 🔗 Langchain, OpenAI, Google Generative AI and Hugging Face 🤗
+# RAG chatbot powered by 🔗 LangChain, OpenAI, Google Gemini & Hugging Face 🤗
+
+> **RAG chatbot powered by LangChain, OpenAI, Google Gemini & Hugging Face.** Upload PDF, TXT, CSV, or DOCX documents and chat with your data. Streamlit UI with history-aware retrieval, 3 retriever types (vectorstore, contextual compression, Cohere rerank), streaming answers, and multi-language support.
 
 <div align="center">
   <img src="data/docs/RAG_architecture.png" alt="RAG architecture with Langchain components">
@@ -17,8 +19,9 @@ Throughout this project, we examined each component of the RAG system from docum
 
 - **Python 3.12**
 - **Streamlit** (UI)
-- **LangChain 1.x** (`langchain-classic` for retriever classes, LCEL for the chain)
+- **LangChain 1.x** (`langchain-classic` for retriever classes, pure LCEL for the chain)
 - **ChromaDB** (vector store)
+- **DeepEval** (RAG evaluation & testing)
 
 ## Project structure <a name="structure"></a>
 

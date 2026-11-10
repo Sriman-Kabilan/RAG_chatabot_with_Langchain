@@ -134,8 +134,8 @@ def _render_sidebar() -> None:
     """Render the left-hand sidebar controls."""
     with st.sidebar:
         st.caption(
-            "🚀 A retrieval augmented generation chatbot powered by 🔗 Langchain, "
-            "Cohere, OpenAI, Google Generative AI and 🤗"
+            "🚀 A retrieval augmented generation chatbot powered by 🔗 LangChain, "
+            "Cohere, OpenAI, Google Gemini and 🤗"
         )
         st.write("")
 
