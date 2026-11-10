@@ -46,6 +46,10 @@ CONFIG_MODELS: Dict[str, Dict[str, object]] = {
     "HuggingFace": {
         "api_key_field": "hf_api_key",
         "models": [
+            "meta-llama/Llama-3.1-8B-Instruct",
+            "mistralai/Mistral-7B-Instruct-v0.3",
+            "deepseek-ai/DeepSeek-R1-Distill-Qwen-7B",
+            "Qwen/Qwen2.5-72B-Instruct",
             "Qwen/Qwen2.5-7B-Instruct",
             "microsoft/phi-4",
         ],

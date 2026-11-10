@@ -1,7 +1,7 @@
 # RAG chatbot powered by 🔗 Langchain, OpenAI, Google Generative AI and Hugging Face 🤗
 
 <div align="center">
-  <img src="https://github.com/AlaGrine/RAG_chatabot_with_Langchain/blob/main/data/docs/RAG_architecture.png" >
+  <img src="data/docs/RAG_architecture.png" alt="RAG architecture with Langchain components">
   <figcaption>RAG architecture with Langchain components.</figcaption>
 </div>
 
@@ -91,6 +91,18 @@ The modernized app uses the LangChain 1.x LCEL architecture instead of the depre
 - **Retriever options** (`core/retrievers.py`): vectorstore-backed, contextual compression
   (`EmbeddingsRedundantFilter` + `EmbeddingsFilter` + `LongContextReorder`), and a
   Cohere reranker (`rerank-multilingual-v3.0`).
+- **Evaluation & quality testing with DeepEval** (`tests/test_rag_eval.py` & `tests/test_rag_pytest.py`):
+  evaluates the generated answers against retrieved documents using DeepEval metrics:
+  - *Faithfulness* (groundedness, hallucination prevention)
+  - *Answer Relevancy* (query alignment)
+  - *Contextual Precision & Recall* (retriever quality)
+
+```bash
+# Run RAG evaluation with DeepEval
+python -m tests.test_rag_eval
+# OR pytest-style with CLI dashboard
+deepeval test run tests/test_rag_pytest.py --verbose
+```
 
 ## Blog post <a name="blog_post"></a>
 

@@ -28,7 +28,11 @@ streamlit_app.log
 data/tmp/
 data/vector_stores/
 !data/vector_stores/README.md
+data/eval_reports/
 chroma_data/
+
+# DeepEval
+.deepeval/
 
 # Internal agent tooling
 .agents/
